@@ -1,0 +1,905 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  margin-top: 2rem;
+}
+
+.btn a {
+  padding: .7rem 1.5rem;
+  border: 0.2rem solid #0f0735;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #0f0735;
+  font-weight: bold;
+  transition: .5s;
+}
+
+.btn a:hover {
+  border: 0.2rem solid white;
+  color: #f7f7f7;
+}
+
+/*
++++++++++++++++++++++++++++++++++++++++++++++++
+HOME PAGE DESIGN START HARE
+++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+.sec-tittle {
+  padding: 1rem 0;
+}
+
+.sec-tittle h1 {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: .5rem 0;
+}
+
+.sec-tittle p {
+  text-transform: uppercase;
+}
+
+/*
+===================
+ Header top area css start
+ ==================
+ 
+*/
+.header-top {
+  color: #fff;
+  background: #0f0735 !important;
+}
+
+.header-top .left-area a {
+  color: #fff;
+  display: inlie-block;
+  margin: 0;
+  font-size: 1.5rem;
+  padding: 0 .5rem;
+}
+
+.header-top .left-area a:hover {
+  color: #ff00bf;
+}
+
+.header-top .right-area {
+  padding: .5rem 0;
+}
+
+.header-top .right-area ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.header-top .right-area ul li {
+  display: inline;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+}
+
+.header-top .right-area ul li:hover {
+  color: #ff00bf;
+}
+
+/*
+===================
+ /Header top area css end
+ ==================
+ 
+*/
+/*
+===================
+ Header nav area css start
+ ==================
+
+*/
+.header-nav {
+  background-color: #fff !important;
+}
+
+.header-nav .navbar-brand img {
+  max-width: 15rem;
+}
+
+.header-nav .navbar-nav .nav-item .nav-link {
+  font-weight: bold;
+  color: #ff00bf;
+  padding: .5rem 1rem;
+  font-size: .8rem;
+  transition: .5s;
+}
+
+.header-nav .navbar-nav .nav-item .active {
+  background: #0f0735 !important;
+  color: #fff;
+}
+
+.header-nav .navbar-nav .nav-item .nav-link:hover {
+  background: #0f0735 !important;
+  color: #fff;
+}
+
+/*
+===================
+ /Header nav area css end
+ ==================
+
+*/
+/*
+===================
+ Slider area css start
+ ==================
+
+*/
+#slider-area {
+  color: #fff;
+}
+
+#slider-area .main-slider {
+  position: relative;
+}
+
+#slider-area .main-slider .slider-img {
+  position: relative;
+}
+
+#slider-area .main-slider .slider-img img {
+  width: 100%;
+  height: 40rem;
+}
+
+#slider-area .main-slider .slider-img::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.376);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#slider-area .main-slider .slider-content {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+#slider-area .main-slider .slider-content h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+#slider-area .main-slider .slider-content h4 {
+  font-weight: bold;
+  line-height: 2.5rem;
+  font-size: 1.8rem;
+}
+
+#slider-area .main-slider .slider-content span {
+  padding: .5rem 0;
+  border-bottom: solid .1rem #fff;
+  font-size: 1.5rem;
+}
+
+/*
+===================
+/Slider area css end
+ ==================
+
+*/
+/*
+===================
+Medical Tradement-area css end
+ ==================
+
+*/
+.madicaltrade-area .col-lg-3 {
+  margin: 0;
+  padding: 0;
+}
+
+.madicaltrade-area .content1 {
+  color: #fff;
+  width: 100%;
+  height: auto;
+  background: #ff00bf;
+}
+
+.madicaltrade-area .content1 li {
+  display: inline-block;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.madicaltrade-area .content1 span {
+  text-align: left;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.madicaltrade-area .content1 a {
+  color: #fff;
+}
+
+.madicaltrade-area .content2 {
+  text-align: center;
+  padding: 2.4rem 0;
+  background: #090053;
+  color: #fff;
+}
+
+.madicaltrade-area .content2 span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-right: .2rem;
+  transition: 1s;
+}
+
+.madicaltrade-area .content2 a {
+  color: #fff;
+}
+
+.madicaltrade-area .content2:hover span {
+  padding-right: 1rem;
+}
+
+/*
+===================
+/Medical Tradement-area css end
+ ==================
+
+*/
+/*
+===================
+About Me-area css end
+ ==================
+
+*/
+#aboutme-area .btn {
+  margin-top: 2rem;
+}
+
+#aboutme-area .btn a {
+  padding: .7rem 1.5rem;
+  border: 0.2rem solid #0f0735;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #0f0735;
+  font-weight: bold;
+  transition: 1s;
+}
+
+#aboutme-area .btn a:hover {
+  border: 0.2rem solid #ff00bf;
+  color: #ff00bf;
+}
+
+#aboutme-area .about-img {
+  text-align: right;
+  overflow: hidden;
+}
+
+#aboutme-area .about-img img {
+  width: 28rem;
+  height: auto;
+  transition: 1s;
+}
+
+#aboutme-area .about-img img:hover {
+  transform: scale(1.2);
+}
+
+.about-discription {
+  padding: 5rem 0;
+}
+
+.about-discription .about-content {
+  padding: 2rem 0;
+}
+
+.about-discription .about-content p {
+  padding: 1rem 0;
+}
+
+/*
+===================
+/About Me-area css end
+ ==================
+
+*/
+/*
+===================
+Department-area css end
+ ==================
+
+*/
+#section-no-border {
+  background: #ff00bf;
+  padding: 3rem 0;
+  color: #fff;
+}
+
+.feature-box-info h4 a {
+  color: white;
+  padding: .5rem 0;
+  display: inline-block;
+}
+
+/*
+===================
+/Department-area css end
+ ==================
+
+*/
+/*
+===================
+Doctor teem-area css start
+ ==================
+
+*/
+#doctor-teem-area {
+  padding: 3rem 0;
+}
+
+#doctor-teem-area .owl-carousel .owl-item img {
+  display: block;
+  width: 15rem;
+}
+
+.card-body .sociel-icon a {
+  color: #090053;
+  font-size: 2rem;
+  transition: .5s;
+  padding: .5rem;
+}
+
+.card-body .sociel-icon a:hover {
+  color: #ff00bf;
+}
+
+/*
+===================
+/Doctor teem-area css end
+ ==================
+
+*/
+/*
+===================
+Resources-area css start
+ ==================
+
+*/
+#resoures-area {
+  padding: 3rem 0;
+  background-color: #ff00bf;
+}
+
+#resoures-area .owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+#resoures-area .btn {
+  margin-top: 2rem;
+}
+
+#resoures-area .btn a {
+  padding: .7rem 1.5rem;
+  border: 0.2rem solid #0f0735;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #0f0735;
+  font-weight: bold;
+  transition: 1s;
+}
+
+#resoures-area .btn a:hover {
+  border: 0.2rem solid white;
+  color: #f7f7f7;
+}
+
+.main-resoures a {
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card img {
+  transition: 1s;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+/*
+===================
+/Resources-area  css end
+ ==================
+
+*/
+/*
+===================
+Insurance-area start css start
+ ==================
+
+*/
+#insurance-area {
+  padding: 3rem 0;
+}
+
+#insurance-area .owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+}
+
+/*
+===================
+/Insurance-area start css end
+ ==================
+
+*/
+/*
+===================
+/ Client testimonial-area start css end
+ ==================
+
+*/
+#testimonial-area {
+  background-color: #0f0735;
+  padding: 4rem 0;
+  padding: 4rem 0;
+  color: #fff;
+}
+
+.testimonial {
+  width: 60%;
+  margin: auto;
+}
+
+.testimonial .testimonial-quote {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  font-size: 50px;
+  font-family: Georgia, serif;
+  border: .1rem solid #fff;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  font-size: 4rem;
+  text-align: center;
+}
+
+/*
+===================
+/ Client testimonial-area  css end
+ ==================
+
+*/
+/*
+===================
+Foother-area css start
+ ==================
+
+*/
+#foother-area {
+  background: #050619;
+  color: white;
+  padding: 3rem 0 0 0;
+}
+
+#foother-area ul.social-icons li {
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
+#foother-area ul.social-icons li a {
+  color: white;
+  transition: .5s;
+}
+
+#foother-area ul.social-icons li a:hover {
+  color: #ff00bf;
+}
+
+#foother-area .contact-details a strong .font-weight-light {
+  font-size: 2rem;
+  color: #8a8a8a;
+}
+
+#foother-area a.text-decoration-none {
+  font-size: 2rem;
+  color: #ff00bf;
+}
+
+#foother-area .foother-bottom {
+  padding: 1rem 0;
+  color: #fff;
+  border-top: 0.1rem solid white;
+}
+
+/*
+===================
+Foother-area css end
+ ==================
+
+*/
+/*
+===================
+/ Bottom to Top-area start
+ ==================
+
+*/
+.bootom-to-top-area {
+  position: absolute;
+  bottom: 2%;
+  right: 10%;
+  width: 1rem;
+  height: 1rem;
+}
+
+.bootom-to-top-area .icon a {
+  background: #ff00bf;
+  font-size: 2rem;
+  padding: .5rem;
+  color: white;
+}
+
+/*
+===================
+/ Bottom to Top-area end
+ ==================
+
+*/
+/*
++++++++++++++++++++++++++++++++++++++++++++++++
+HOME PAGE DESIGN END HARE
+++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*
++++++++++++++++++++++++++++++++++++++++++++++++
+ABOUT_US PAGE DESIGN START HARE
+++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*
+===================
+About-hading-area start
+ ==================
+
+*/
+#heading-area {
+  background: linear-gradient(rgba(3, 5, 24, 0.8), rgba(12, 4, 39, 0.8)), url("../img/slider/slide-medical-2.jpg");
+  background-size: cover;
+  padding: 2rem 0;
+  color: #fff;
+}
+
+#heading-area .right-content ul {
+  text-align: right;
+}
+
+#heading-area .right-content ul li {
+  display: inline-block;
+}
+
+.sideber-img img {
+  width: 100%;
+  height: auto;
+}
+
+.sideber-counter h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #0f0735;
+}
+
+.sideber-counter h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3b3b3b;
+}
+
+/*
+===================
+About-hading-area end
+ ==================
+
+*/
+/*
+===================
+Wellcome-area end
+ ==================
+
+*/
+#wellcome-area {
+  padding: 3rem 0;
+}
+
+#wellcome-area .wellcome-content h1 {
+  padding: 1rem 0;
+}
+
+#wellcome-area .wellcome-content i {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #a7a7a7;
+}
+
+.accordion-area .accordion-icon {
+  margin: 0 1rem;
+  color: #ff00bf;
+}
+
+.accordion-area .accordion-button span {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.accordion-area .accordion-button {
+  border: .1rem solid #333;
+  padding: .3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  transition: 1s;
+  border-radius: 1rem 0 1rem 0;
+}
+
+.accordion-area .accordion-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/*
+===================
+Wellcome-area end
+ ==================
+
+*/
+/*
+===================
+Health-importent-area start
+ ==================
+
+*/
+#health-importent-area {
+  padding: 5rem 0;
+  background-color: #c9c9c9;
+}
+
+/*
+===================
+Health-importent-area css end
+ ==================
+
+*/
+/*
++++++++++++++++++++++++++++++++++++++++++++++++
+ABOUT_US PAGE DESIGN END HARE
+++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*
++++++++++++++++++++++++++++++++++++++++++++++++
+CONTACT_US PAGE DESIGN START HARE
+++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*
+===================
+Contact-area css start
+ ==================
+
+*/
+#contact-us-area {
+  padding: 3rem 0;
+}
+
+.feature-box-icon {
+  display: inline-block;
+  float: left;
+  font-size: 2.5rem;
+  padding: 1rem;
+  color: #ff00bf;
+}
+
+/*
+===================
+Contact-area css end
+ ==================
+
+*/
+/*
++++++++++++++++++++++++++++++++++++++++++++++++
+CONTACT_US PAGE DESIGN END HARE
+++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*
++++++++++++++++++++++++++++++++++++++++++++++++
+INSURANCE PAGE DESIGN START HARE
+++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*
+===================
+Insurance logo-area css start
+ ==================
+
+*/
+#indurance h1 {
+  padding: 1rem 0;
+}
+
+#indurance h5 {
+  padding: 1rem 0;
+  color: #858585;
+}
+
+.insurance-logo-area {
+  padding: 3rem 0;
+}
+
+.insurance-logo .row {
+  margin: 1rem 0;
+}
+
+.insurance-logo .logo {
+  border: 0.1rem solid #afafaf;
+  padding: 5rem 0;
+  transition: 1s;
+}
+
+.insurance-logo .logo:hover {
+  background: #b4b4b4;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*
+===================
+Insurance logo-area css end
+ ==================
+
+*/
+/*
++++++++++++++++++++++++++++++++++++++++++++++++
+INSURANCE PAGE DESIGN END HARE
+++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*
++++++++++++++++++++++++++++++++++++++++++++++++
+Resources PAGE DESIGN END HARE
+++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*
+===================
+Resources logo-area css start
+ ==================
+
+*/
+#resources-area {
+  padding: 3rem;
+}
+
+#resources-area h1 {
+  padding: 1rem 0;
+  font-size: 3rem;
+}
+
+#resources-area h1 h5 {
+  padding: 1rem 0;
+}
+
+.col-md-8 .btn {
+  margin: 0;
+}
+
+.col-md-8 .btn a {
+  font-size: .8rem;
+}
+
+.col-md-8 .btn a:hover {
+  border: 0.2rem solid #ff00bf;
+  color: #ff00bf;
+}
+
+/*
+===================
+Resources logo-area css end
+ ==================
+
+*/
+/*
++++++++++++++++++++++++++++++++++++++++++++++++
+Resources PAGE DESIGN END HARE
+++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*
++++++++++++++++++++++++++++++++++++++++++++++++
+Doctor PAGE DESIGN END HARE
+++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*
+===================
+specialists-area css start
+ ==================
+
+*/
+#specialists-area .meet-nav ul li {
+  display: inline-block;
+  margin: .5rem;
+}
+
+#specialists-area .meet-nav ul li a {
+  text-decoration: none;
+}
+
+#specialists-area .about-doctor .doctor-img {
+  overflow: hidden;
+}
+
+#specialists-area .about-doctor .doctor-img img {
+  max-width: 100%;
+  transition: 1s;
+}
+
+#specialists-area .about-doctor .doctor-img img:hover {
+  transform: scale(1.1);
+}
+
+#specialists-area .doctor-content {
+  padding: 1rem;
+  transition: 1s;
+}
+
+#specialists-area .doctor-content h2 {
+  font-weight: bold;
+}
+
+#specialists-area .doctor-content:hover {
+  background-color: black;
+  color: #fff;
+}
+
+/*
+===================
+specialists-area css end
+ ==================
+
+*/
+/*
++++++++++++++++++++++++++++++++++++++++++++++++
+Doctor PAGE DESIGN END HARE
+++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+/*# sourceMappingURL=style.css.map */
